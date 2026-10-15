@@ -16,7 +16,7 @@ Mon text corpus ──▶ training (private) ──▶ model weights ──▶ S
 |---|---|---|
 | Apps | Web app (live), Android and iOS (build from source), `monocr-cli` for PDFs and folders | [MonDevHub/monocr](https://github.com/MonDevHub/monocr) |
 | SDKs | One SDK in four languages: `monocr-onnx` on PyPI, `monocr` on npm and crates.io, and a Go module | [MonDevHub/monocr-onnx](https://github.com/MonDevHub/monocr-onnx) |
-| Model weights | What every SDK and app downloads, with the evaluation and its limits | [janakhpon/monocr](https://huggingface.co/janakhpon/monocr) on Hugging Face |
+| Model weights | What every SDK and app runs, with the evaluation and its limits | [janakhpon/monocr](https://huggingface.co/janakhpon/monocr) on Hugging Face |
 | Corpus | Mon text for NLP and OCR training. Read its licence before reusing any shard | [MonDevHub/MonCorpusCollection](https://github.com/MonDevHub/MonCorpusCollection) |
 | Language detector | Tells Mon, Burmese and English apart (`mon-language-detector` on PyPI) | [janakhpon/mon-language-detector](https://github.com/janakhpon/mon-language-detector) |
 | Tokenizer | Unigram tokenizer for mixed Mon, Burmese and English text (`mon-tokenizer` on PyPI) | [Code-Yay-Mal/mon_tokenizer](https://github.com/Code-Yay-Mal/mon_tokenizer) |
